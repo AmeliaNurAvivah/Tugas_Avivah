@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #7783ab;
+    color: rgb(219, 216, 230);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    color: rgb(12, 3, 3);
+    text-decoration: none;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(24, 14, 14);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.banner {
+    background-color: #c39494;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 50%;
+    padding: 7px;
+    margin: 10px 0;
+}
+
+button {
+    margin: 5px 20px;
+    padding: 10px 20px;
+    background-color: #4149a3;
+    color: rgb(2, 1, 1);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #352978;
+}
+
+.menu-items, .cart, .confirmation, .status, .admin-orders {
+    max-width: 500px;
+       padding: 20px;
+}
+
+.item, .cart-item, .order {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.item img {
+    max-width: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
